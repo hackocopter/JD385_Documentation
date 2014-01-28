@@ -1,0 +1,29 @@
+Quadcopter JD-385, Fernbedienung
+
+Pinbelegung für CPU N79E814
+
+ Pin    Name    Funktion
+   1     P0.0   LCD, CS
+   2     P1.7   LCD, CLK
+   3     P1.6   LCD, DATA
+   4     RST    Reset (10k - C)
+   5     VSS    an Masse
+   6     P3.1   RF-Modul, MOSI
+   7     P3.0   RF-Modul, SCK
+   8     P1.4   RF-Modul, MISO
+   9     SDA    RF-Modul, CSN
+  10     SCL    2K2 Pullup, unbestückter Schaltungsteil
+  11     P1.1   LED via 1kOhm
+  12     P1.0   Buzzer (via Transistor)
+  13     AD6    über Widerstände an Batteriespannung vor Regler
+  14     AD5    Auswertung Taster (Seite Yaw-Throttle)
+  15     VDD    Versorgung
+  16     AD4    Poti "Throttle"
+  17     AD3    Poti "Yaw"
+  18     AD2    Poti "Roll", Dämpfung mit RC Glied
+  19     AD1    Poti "Pitch", Dämpfung mit RC Glied
+  20     AD0    Auswertung Taster (Seite Pitch-Roll)
+
+Stand: 20-11-2013, Georg.
+
+
