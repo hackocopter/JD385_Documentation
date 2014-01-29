@@ -23,6 +23,5 @@ Open:
 
 ----------
 
-http://www.jxdtoys.com/en/detail_A.asp?cpname=385
 
 ![Product photo](jxd385.jpg)
