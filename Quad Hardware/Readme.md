@@ -4,7 +4,7 @@
 
 ### PCB ###
 
-![PCB](PCB_Overview.jpg)
+![PCB](PCB_overview.jpg)
 
 ### Controller Pin Out ###
 
