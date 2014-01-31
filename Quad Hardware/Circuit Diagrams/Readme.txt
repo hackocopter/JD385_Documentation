@@ -1,7 +1,7 @@
 JXD 385 Quadrocopter circuit diagrams
 CAD: Eagle 4.16
 
-As reconstructed from board photographs. Some part footprints may be off. Almost all
+As reconstructed from board photographs. Some footprints may be off. Almost all
 component values are missing.
 
 Sheet 1/5: CPU
