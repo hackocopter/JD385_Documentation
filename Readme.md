@@ -1,6 +1,6 @@
 ## Hack-O-Copter Documentation ##
 
-The JD185/385 is a cheap quadrocopter that retails for less than 30 EUR including remote control on many websites. You can find it by searching for "6 axis mini UFO". It is a low-cost clone of the popular Hubsan X4.  The same hardware and firmware is also used by the JD388 and the F180.
+The JXD185/385 is a cheap quadrocopter that retails for less than 30 EUR including remote control on many websites. You can find it by searching for "6 axis mini UFO". It is a low-cost clone of the popular Hubsan X4.  The same hardware and firmware is also used by the JXD388 and the F180.
 
 It was found that the flight controller is build around several standard components: An Invensense MPU6050 IMU, an Cortex-M0 controller and a nRF24l01 compatible tranceiver. This is a very similar hardware configuration to many "hobbyist" -grade quadrocoptors, which are several times more expensive. The microcontroller debug and serial ports are easily accessible on the pcb. If that isn't an invitation to hacking, what else is?
 
@@ -18,8 +18,9 @@ Completed:
 Open:
 
 - The original firmware could not be read out due to write protection.
-- *There is no functional firmware replacement as of now*. 
+- **As of now, there is no functional firmware replacement.**. 
 - Reprogramming of the remote control.
+
 
 ----------
 
