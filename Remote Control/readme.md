@@ -10,6 +10,8 @@ http://www.nuvoton.com/NuvotonMOSS/Community/ProductInfo.aspx?tp_GUID=c60884e1-c
 RC-Protocol
 ===========
 
+Eine Protokollbeschreibung in Deutsch ist in Protokoll.pdf zu finden. Einzelheiten zur Implementierung findet man im Verzeichnis "Firmware für AVR".
+
 The stock JXD-385uses an RC protocol known as "V202". It has been reverse engineered and reimplemented in the Deviation firmware for Devo controls:
 
 http://www.deviationtx.com/forum/protocol-development/1647-v202-protocol
