@@ -1,10 +1,12 @@
 This folder contains Information about the remote control. 
 
-The remote control is based on a N79E814AS20 microcontrollerand BK2423 RD Module with LNA. The circuit has been reverse engineered, but so far no attempt was made to modify the firmware.
+The remote control is based on a N79E814AS20 microcontroller and BK2423 RD Module with LNA. The circuit has been reverse engineered, but so far no attempt was made to modify the firmware.
 
 There only seems to be a chinese datasheet available.
 
 http://www.nuvoton.com/NuvotonMOSS/Community/ProductInfo.aspx?tp_GUID=c60884e1-c6a9-45da-8268-6be8b32e9cf2
+
+Den Anfang eines Datenblattes auf Deutsch findet man unter "datenblatt.doc" als Word Dokument.
 
 
 RC-Protocol
@@ -12,7 +14,7 @@ RC-Protocol
 
 Eine Protokollbeschreibung in Deutsch ist in Protokoll.pdf zu finden. Einzelheiten zur Implementierung findet man im Verzeichnis "Firmware für AVR".
 
-The stock JXD-385uses an RC protocol known as "V202". It has been reverse engineered and reimplemented in the Deviation firmware for Devo controls:
+The stock JXD-385 uses an RC protocol known as "V202". It has been reverse engineered and reimplemented in the Deviation firmware for Devo controls:
 
 http://www.deviationtx.com/forum/protocol-development/1647-v202-protocol
 
@@ -29,9 +31,9 @@ Format:
 
 Byte 	Function  Range
 0  Throttle   0-255, note: Trim will be added by remote control
-1  Yaw         bit 7 indicates direction, value in [6:0] depends on speed button settings
-2  Pitch       bit 7 indicates direction, value in [6:0] depends on speed button settings
-3  roll        bit 7 indicates direction, value in [6:0] depends on speed button settings
+1  Yaw         bit 7 indicates direction, max value in [6:0] depends on speed button settings
+2  Pitch       bit 7 indicates direction, max value in [6:0] depends on speed button settings
+3  roll        bit 7 indicates direction, max value in [6:0] depends on speed button settings
 4  trim yaw    2-126, 64 is neutral
 5  trim pitch  2-126, 64 is neutral
 6  trim roll   2-126, 64 is neutral
@@ -42,7 +44,7 @@ Byte 	Function  Range
 11  unused  
 12  unused  
 13  unused  
-14  Flags      0x04 is "flip button"
+14  Flags      0x04 is "flip button", 0xc0 is "binding"
 15  Checksum   
 
 Example of packets:
