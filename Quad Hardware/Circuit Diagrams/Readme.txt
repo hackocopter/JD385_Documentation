@@ -1,4 +1,4 @@
-JXD 385 Quadrocopter circuit diagrams
+﻿JXD 385 Quadrocopter circuit diagrams
 CAD: Eagle 4.16
 
 As reconstructed from board photographs. Some footprints may be off. Almost all
@@ -26,4 +26,7 @@ Anmerkungen:
 - Die Footprints sind nicht getestet und stimmen mit hoher Wahrscheinlichkeit nicht mit dem Original überein.
 - Bauteil Werte fehlen fast durchgängig.
 
-Stand: 20-NOV-2013, Georg
+Version 0.2:
+Fehlende Bauteile des Senders nachgetragen, Bauteilwerte ergänzt.
+
+Stand: 21-APR-2014, Georg
