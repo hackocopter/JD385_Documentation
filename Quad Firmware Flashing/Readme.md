@@ -8,7 +8,7 @@ Unfortunately, Nuvoton decided not to publish information about how to perform a
 
 ### Requirements ###
 
-Since the controller only has 16kb of flash, it is fully supported by the free evaluation version of Keil µVision. You can find µVision 5 here:
+Since the controller only has 16kb of flash, it is fully supported by the free evaluation version of Keil µVision/MDK-ARM. You can find it here:
 
 https://www.keil.com/demo/eval/arm.htm
 
