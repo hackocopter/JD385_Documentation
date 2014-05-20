@@ -14,11 +14,11 @@ Completed:
 - Circuit diagrams of the flight controller and the remote control have been reconstructed.
 - The chip erase sequence to unlock the write protected flight controller has been reverse engineered. It is now possible to flash new firmware with any SWD adapter.
 - The remote control protocol was identified (V202) and verified.
+- **NEW**: Open source firmware available here: https://github.com/hackocopter/bradwii-jd385 (Port of Bradwii)
 
 Open:
 
 - The original firmware could not be read out due to write protection.
-- **As of now, there is no functional firmware replacement.**. 
 - Reprogramming of the remote control.
 
 
